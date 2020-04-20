@@ -1,0 +1,169 @@
+.home_container{
+    width: 60%;
+    margin: 0 auto;
+
+    .home_banner_container{
+        background-color: rgba($color: #cfcfcf, $alpha: 1.0);
+
+        height: 15vh;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        
+
+        .home_banner_item1, .home_banner_item2, .home_banner_item3{
+            float: left;
+            margin-top: 4vh;
+        }
+
+        .home_banner_item1{
+            width: 30%;
+            span{
+                font-size: x-large;
+                font-weight: bold;
+            }
+        }
+
+        .home_banner_item2{
+            width: 60%;
+        }
+
+        .home_banner_item3{
+            width: 10%;
+        }
+    }
+}
+
+.carousel{
+    width: auto;
+    height: 99vh;
+    background-image: url('../../data/img/pope.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+    .carousel-item-cont{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    .carousel-item{
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        width: 30%;
+        height: 50vh;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+
+        .carousel-item-name{
+            font-size: xxx-large;
+        }
+
+        .carouselthumbs{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+
+            position: absolute;
+            bottom: 0px;
+            .carouselthumbup{
+                width: 50%;
+                height: 10vh;
+                background-color: mediumaquamarine;
+                opacity: 0.5;
+                float: left;
+                cursor: pointer;
+            }
+            .carouselthumbdown{
+                width: 50%;
+                height: 10vh;
+                background-color: yellow;
+                opacity: 0.5;
+                float: left;
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
+
+.card_content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    overflow: hidden;
+
+    .card_content_subtitle{
+        font-size: 30px;
+    }
+
+    .card{
+        width: 45%;
+        height: 60vh;
+        display: flex;
+        margin-bottom: 30px;
+        color: white;
+
+        .card-item-img{
+            position: absolute;
+            z-index: 1;
+            img{
+                width: 90%;
+            }
+        }
+
+        .card-item{
+            z-index: 10;
+            display: inline-block;
+            align-self: flex-end;
+            height: 20vh;
+            width: 90%;
+            margin: 0 auto;
+
+            .card-item-title{
+                font-size: xx-large;
+            }
+
+            button{
+                background-color: rgba($color: #000000, $alpha: 0.1);
+                border: solid 1px black;
+                padding: 0.5em;
+                color: white;
+                cursor: pointer;
+            }
+
+            button:hover{
+                background-color: rgba($color: #000000, $alpha: 0.5);
+            }
+        }
+
+        .card-item-opt{
+            display: flex;
+            margin-top: 10px;
+
+            .card-item-opt-viewBtn{
+                float: left;
+            }
+
+            .card-item-opt-items{
+                width: 70%;
+                text-align: right;
+                float: right;
+            }
+        }
+    }
+
+    .card-left{
+        float: left;
+    }
+
+    .card-right{
+        float: right;
+    }
+
+    #cardSpace{
+        width: 10%;
+        height: 60vh;
+        float: left;
+    }
+}

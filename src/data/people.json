@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Kanye West",
+        "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "thumb_up": 12,
+        "thumb_down": 5,
+        "long": 1,
+        "business": "Entertainment",
+        "img": "kanye-west"
+    },
+    {
+        "id": 2,
+        "name": "Bill Gate",
+        "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "thumb_up": 12,
+        "thumb_down": 5,
+        "long": 2,
+        "business": "Tecnologist",
+        "img": "kanye-west"
+    },
+    {
+        "id": 3,
+        "name": "Mark Zuckerberg",
+        "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "thumb_up": 12,
+        "thumb_down": 5,
+        "long": 3,
+        "business": "Marketing",
+        "img": "mark"
+    },
+    {
+        "id": 4,
+        "name": "Kanye West",
+        "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "thumb_up": 12,
+        "thumb_down": 5,
+        "long": 1,
+        "business": "Entertainment",
+        "img": "kanye-west"
+    }
+]

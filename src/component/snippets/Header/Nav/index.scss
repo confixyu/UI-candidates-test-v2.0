@@ -1,0 +1,30 @@
+nav{
+    width: 60%;
+    margin: 0 auto;
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        h1{
+            margin: 0px;
+            padding: opx;
+            float: left;
+            color: white;
+        }
+
+        .navItem{
+            float: right;
+            padding: 20px;
+            color: #D8D8D8;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .navItem:hover{
+            color: white;
+        }
+    }
+}
